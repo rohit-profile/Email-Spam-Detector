@@ -1,33 +1,43 @@
-# 📧 Email Spam Detection
+# 📧 Email Spam Detection 🔒 Premium Version
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/) 
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) 
-[![Accuracy](https://img.shields.io/badge/Random%20Forest-100%25-brightgreen)](https://github.com/your-username/email-spam-detection)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)]
+[![Accuracy](https://img.shields.io/badge/Random%20Forest-100%25-brightgreen)]()
+[![Deploy](https://img.shields.io/badge/Live%20Demo-Online-blue)](https://email-spam-detector-qnvy.onrender.com/)
 
-A **machine learning-based Email Spam Detection system** that classifies emails as **spam** or **ham (not spam)**. This project uses multiple models and achieves high accuracy with **Random Forest**.  
+> 🚀 **AI-powered Email Spam Detection System** – Classify emails as **spam** or **ham** with state-of-the-art ML models.  
+> Built for **accuracy, reliability, and production-ready deployment**.
 
-💻 **Live Deployment:** [Try it online](https://your-deployment-link.com)
+---
+
+## 🔹 Overview
+
+This project is a **machine learning solution for email spam detection**, using **Logistic Regression, SVM, Random Forest, and Naive Bayes**. The system leverages **TF-IDF vectorization** to convert email text into numerical features.  
+
+**Random Forest** achieved **100% accuracy** on training data and is used for live deployment.  
+
+📌 **Goal:** Protect inboxes by automatically detecting and filtering spam emails.
 
 ---
 
 ## 🔹 Dataset
 
-- **Columns Required:**  
-  - `text` → content of the email  
+- **Required columns:**  
+  - `text` → email content  
   - `label` → spam or ham  
 
 - **Sample Data:**
 
-| text                       | label |
-|----------------------------|-------|
-| Free money now!!!           | spam  |
-| Meeting at 10am tomorrow    | ham   |
+| Email Text                   | Label |
+|-------------------------------|-------|
+| Free money now!!!             | spam  |
+| Meeting at 10am tomorrow      | ham   |
 
-> You can use your own dataset or public datasets like the [Enron Spam Dataset](https://www.cs.cmu.edu/~enron/).
+
 
 ---
 
-## 🔹 Models Used
+## 🔹 Model Performance
 
 | Model                  | Training Accuracy |
 |------------------------|-----------------|
@@ -36,16 +46,17 @@ A **machine learning-based Email Spam Detection system** that classifies emails 
 | Random Forest           | 100%             |
 | Naive Bayes             | 98.3%           |
 
-> ✅ **Random Forest** is the best performing model and is used for deployment.
+> ✅ **Random Forest** is the best performing model and deployed for real-time predictions.
 
 ---
 
 ## 🔹 Features
 
-- Converts email text to numerical data using **TF-IDF vectorization**.  
-- Trains **4 machine learning models** for comparison.  
-- Saves **trained model and vectorizer** using `pickle` for easy deployment.  
-- Ready for **real-time prediction**.
+- 💡 Converts emails to numeric features using **TF-IDF vectorization**  
+- ⚡ Supports multiple **ML models for comparison**  
+- 💾 Saves trained **model and vectorizer using pickle**  
+- 🌐 Ready for **web deployment / live predictions**  
+- 🔒 Ensures **robust and secure prediction**  
 
 ---
 
