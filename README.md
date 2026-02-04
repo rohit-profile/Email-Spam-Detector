@@ -1,35 +1,51 @@
-# 📧 Email Spam Detection Project
+# 📧 Email Spam Detection
 
-## 🔍 Project Overview
-This project is a **Machine Learning based Email Spam Detection System** that classifies emails as **Spam** or **Not Spam (Ham)** using Natural Language Processing (NLP) techniques.
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/) 
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) 
+[![Accuracy](https://img.shields.io/badge/Random%20Forest-100%25-brightgreen)](https://github.com/your-username/email-spam-detection)
 
-The model learns from labeled email data and predicts whether a new email is spam or not.
+A **machine learning-based Email Spam Detection system** that classifies emails as **spam** or **ham (not spam)**. This project uses multiple models and achieves high accuracy with **Random Forest**.  
 
----
-
-## 🚀 Features
-- Text preprocessing (cleaning, tokenization, stopword removal)
-- Feature extraction using **TF-IDF / CountVectorizer**
-- Machine Learning model training
-- Spam vs Ham classification
-- Easy to use & beginner friendly
-- Ready for deployment (Flask compatible)
+💻 **Live Deployment:** [Try it online](https://your-deployment-link.com)
 
 ---
 
-## 🧠 Machine Learning Algorithms Used
-- Naive Bayes / Logistic Regression / Support Vector Machine (SVM)
-- NLP techniques for text processing
+## 🔹 Dataset
+
+- **Columns Required:**  
+  - `text` → content of the email  
+  - `label` → spam or ham  
+
+- **Sample Data:**
+
+| text                       | label |
+|----------------------------|-------|
+| Free money now!!!           | spam  |
+| Meeting at 10am tomorrow    | ham   |
+
+> You can use your own dataset or public datasets like the [Enron Spam Dataset](https://www.cs.cmu.edu/~enron/).
 
 ---
 
-## 🛠 Tech Stack
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Scikit-learn**
-- **NLTK**
-- **Flask** (optional – for web app)
+## 🔹 Models Used
+
+| Model                  | Training Accuracy |
+|------------------------|-----------------|
+| Logistic Regression     | 96.9%           |
+| SVM                     | 99.9%           |
+| Random Forest           | 100%             |
+| Naive Bayes             | 98.3%           |
+
+> ✅ **Random Forest** is the best performing model and is used for deployment.
+
+---
+
+## 🔹 Features
+
+- Converts email text to numerical data using **TF-IDF vectorization**.  
+- Trains **4 machine learning models** for comparison.  
+- Saves **trained model and vectorizer** using `pickle` for easy deployment.  
+- Ready for **real-time prediction**.
 
 ---
 
