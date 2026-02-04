@@ -1,4 +1,4 @@
-# 📧 Email Spam Detection 🔒 Premium Version
+# 📧 Email Spam Detection 
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)]
@@ -64,4 +64,5 @@ This project is a **machine learning solution for email spam detection**, using 
 ---
 
 ## Live app link :-->  (https://email-spam-detector-qnvy.onrender.com/)
+
 
