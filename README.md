@@ -9,6 +9,9 @@
 > Built for **accuracy, reliability, and production-ready deployment**.
 
 ---
+[![🚀 Try Spam Detector Online](https://img.shields.io/badge/💻%20Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://email-spam-detector-qnvy.onrender.com/)
+)
+
 
 ## 🔹 Overview
 
@@ -60,4 +63,5 @@ This project is a **machine learning solution for email spam detection**, using 
 
 ---
 
+## Live app link :-->  (https://email-spam-detector-qnvy.onrender.com/)
 
